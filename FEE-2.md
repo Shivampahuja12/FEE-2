@@ -97,9 +97,7 @@ Tools: Docker, Kubernetes, NGINX, Apache
 When millions of users visit Amazon, the infrastructure layer keeps the app running smoothly by distributing load and securing traffic.
 
 🧱 Final 5-Layer Web Architecture Diagram (Text-Based)
-scss
-Copy
-Edit
+``` 
 ┌────────────────────────────┐
 │      Client Layer          │ 👤
 │   (Browser / Mobile App)   │
@@ -123,4 +121,5 @@ Edit
 ┌────────────────────────────┐
 │   Infrastructure Layer      │ 🌐
 │ (Servers, Hosting, Network) │
-└────────────────────────────┘
+└────────────────────────────┘ 
+```
