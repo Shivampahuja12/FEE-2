@@ -24,6 +24,8 @@ A web architecture diagram shows how different parts of a web application are or
 
 The Layered Model breaks down the architecture into layers, where each layer has a specific responsibility. These layers work from top to bottom and are connected like a sandwich (also called a 5-tier architecture).
 
+<br>
+<br>
 1. **Client Layer** (User Device / Browser / Mobile App)
 📌 What it does:
 This is the end-user’s device (like a computer, phone, or tablet).
@@ -38,6 +40,8 @@ Displays what is returned (like a webpage or error message).
 🧠 Example:
 When you open Chrome on your laptop and go to www.amazon.in, your browser is part of the client layer.
 
+<br>
+<br>
 ✅ 2. **Presentation Layer** (Frontend/UI Layer)
 📌 What it does:
 Handles how things look and behave on the screen.
@@ -52,6 +56,8 @@ Frameworks: React, Angular, Vue
 🧠 Example:
 The homepage of Amazon, the cart button, search bar — all live in this layer.
 
+<br>
+<br>
 ✅ 3. **Application Layer** (Backend/Business Logic Layer)
 📌 What it does:
 Processes logic and connects frontend with database.
@@ -66,6 +72,8 @@ Frameworks: Express, Django, Spring
 🧠 Example:
 When you search for “Shoes”, this layer runs logic like “filter by price” or “sort by popularity”.
 
+<br>
+<br>
 ✅ 4. **Data Layer** (Database Layer)
 📌 What it does:
 Stores and retrieves structured data.
@@ -80,6 +88,8 @@ NoSQL DBs: MongoDB, Redis
 🧠 Example:
 When you place an order, your order details get stored in a table in this layer.
 
+<br>
+<br>
 ✅ 5. **Infrastructure Layer** (Deployment/Hosting/Network Layer)
 📌 What it does:
 Hosts and runs the entire web application.
@@ -95,7 +105,8 @@ Tools: Docker, Kubernetes, NGINX, Apache
 
 🧠 Example:
 When millions of users visit Amazon, the infrastructure layer keeps the app running smoothly by distributing load and securing traffic.
-
+<br>
+<br>
 🧱 Final 5-Layer Web Architecture Diagram (Text-Based)
 ``` 
 ┌────────────────────────────┐
