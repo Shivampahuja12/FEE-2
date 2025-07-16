@@ -64,3 +64,72 @@ main .gallery-text p{
 .main-section {
     display: flex;
 }
+
+.all-width {
+    width: 500px;
+    height: 10rem;
+}
+
+.all-width p {
+    color: white;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  
+}
+
+.footer {
+
+    display: flex;
+}
+
+/* .footer section {
+    border: 1px solid white;
+} */
+
+.third-footer figure {
+    display: flex;
+}
+
+li {
+    color: white;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: white;
+    /* padding-right: 20px; */
+    padding: 4px;
+}
+
+.left-padding {
+    padding-left: 50px;
+}
+
+.second-footer p{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+#small {
+    font-size: 12px;
+    color: grey;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+.last-line p{
+    font-family: "Inter", sans-serif;   
+    font-style: italic;
+    color: lightgrey;
+}
