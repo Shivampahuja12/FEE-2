@@ -36,6 +36,8 @@ main {
 }
 
 a {
+    /* font-family: "Inter", sans-serif; */
+    /* font-weight: 100; */
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -132,4 +134,21 @@ td {
     font-family: "Inter", sans-serif;   
     font-style: italic;
     color: lightgrey;
+}
+
+.image-caption {
+    width: 510px;
+    height: 80px;
+}
+
+figcaption {
+    color: white;
+    padding-top: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.hori-line {
+    margin-bottom: 20px;
 }
